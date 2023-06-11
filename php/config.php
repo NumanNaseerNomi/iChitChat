@@ -1,10 +1,10 @@
 <?php
-  $hostname = "localhost";
-  $username = "root";
+  $hostName = "localhost";
+  $userName = "root";
   $password = "";
-  $dbname = "iChitChat";
+  $dbName = "iChitChat";
 
-  $conn = mysqli_connect($hostname, $username, $password, $dbname);
+  $conn = mysqli_connect($hostName, $userName, $password, $dbName);
 
   if(!$conn)
   {
